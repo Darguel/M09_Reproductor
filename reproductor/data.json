@@ -1,0 +1,23 @@
+[
+    {
+        "name": "I ≠ DOLL",
+        "artist": "Huh Yunjin",
+        "path": "./src/audio1.mp3",
+        "duration": "2:38",
+        "img": "src/img1.jpg"
+    },
+    {
+        "name": "Sugar Holic",
+        "artist": "Itzy",
+        "path": "./src/audio2.mp3",
+        "duration": "3:03",
+        "img": "./src/img2.jpg"
+    },
+    {
+        "name": "Back for More",
+        "artist": "TxT",
+        "path": "./src/audio3.mp3",
+        "duration": "2:42",
+        "img": "./src/img3.jpg"
+    }
+]

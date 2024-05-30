@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor d'Àudio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="player">
+        <div class="player-info">
+            <div class="album-bg">
+                <img id="album-cover" src="" alt="Album Cover">
+            </div>
+            <div class="song-details">
+                <h2 class="m-info" id="song-name">Cançó</h2>
+                <h3 class="m-info m-info-t" id="artist-name">Artista</h3>
+                <span class="m-info-t" id="song-duration">00:00</span>
+            </div>
+        </div>
+        <div class="global-control">
+            <div class="controls">
+                <span class="material-icons controls-btn" id="prev">skip_previous</span>
+                <span class="material-icons controls-btn" id="play-pause">play_circle</span>
+                <span class="material-icons controls-btn" id="next">skip_next</span>
+            </div>
+            <div class="volume-control">
+                <span class="material-icons" id="volume-mute">volume_off</span>
+                <input type="range" id="volume-slider" min="0" max="100" value="50">
+                <span class="material-icons" id="volume-up">volume_up</span>
+            </div>
+            <span class="volume-value" id="volume-value">50</span>
+        </div>
+    </div>
+    <audio id="audio-player"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
